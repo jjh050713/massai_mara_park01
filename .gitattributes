@@ -1,0 +1,45 @@
+# Handle line endings automatically
+* text=auto
+
+# Set default behavior for all files
+*.java     text diff=java
+*.kt       text diff=java
+*.groovy   text
+*.gradle   text
+*.md       text
+*.yml      text
+*.yaml     text
+*.properties text
+*.xml      text
+*.json     text
+*.html     text
+*.css      text
+*.js       text
+*.ts       text
+*.tsx      text
+*.sh       text eol=lf
+*.bat      text eol=crlf
+
+# Binary files
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+*.ico      binary
+*.pdf      binary
+*.jar      binary
+*.war      binary
+*.class    binary
+
+# Git diff behaviors
+*.java     diff=java
+*.kt       diff=java
+*.gradle   diff
+*.md       diff
+*.yml      diff
+*.yaml     diff
+*.properties diff
+*.xml      diff
+
+# Linguist overrides for GitHub language stats (optional)
+*.gradle linguist-language=Groovy
